@@ -4,24 +4,6 @@
 
 **React TypeScript • Firebase • Python • Test Otomasyonu**
 
----
-
-## İçindekiler
-
-- [Proje Genel Bakış](#proje-genel-bakış)
-- [Özellikler](#özellikler)
-- [Teknoloji Stack](#teknoloji-stack)
-- [Sistem Mimarisi](#sistem-mimarisi)
-- [Test Otomasyon Projesi](#test-otomasyon-projesi)
-- [Proje Yapısı](#proje-yapısı)
-- [Kurulum](#kurulum)
-- [Canlı Demo](#canlı-demo)§w
-- [Test Raporları](#test-raporları)
-
----
-
-## Proje Genel Bakış
-
 **Finiş Bankası**, React TypeScript ve Vite ile geliştirilmiştir.
 
 ### Temel Özellikler
