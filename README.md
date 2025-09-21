@@ -77,13 +77,6 @@
 
 Bu proje, **Finis Bankası Web arayüzü** üzerinde kapsamlı test otomasyonu sağlar. Modern test mühendisliği yaklaşımları kullanılarak **BDD (Behavior Driven Development)** metodolojisi ile geliştirilmiştir.
 
-### Test Senaryoları
-
-- **Mevduat Hesaplama Testleri** - Otomatik hesaplama doğrulama
-- **Kredi Hesaplama Testleri** - Kapsamlı kredi hesaplama testleri
-- **Ana Sayfa Navigasyonu** - UI ve navigasyon akışı testleri
-- **End-to-End Senaryolar** - Giriş'ten işlem tamamlamaya kadar
-
 ### Test Mimarisi
 
 #### Design Patterns
