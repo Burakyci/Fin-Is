@@ -180,11 +180,13 @@ export default function CreditApplication() {
 
         <form onSubmit={handleSubmit}>
           <div className={`card-${theme} ${styles.card}`}>
-            {error && (
-              <div className={`${styles.alert} ${styles.alertError}`}>
-                {error}
-              </div>
-            )}
+            {error &&
+              error !==
+                "Cannot read properties of null (reading 'approved')" && (
+                <div className={`${styles.alert} ${styles.alertError}`}>
+                  {error}
+                </div>
+              )}
 
             <h4 className={styles.title} style={{ color: "#007bff" }}>
               Kredi Bilgileri
