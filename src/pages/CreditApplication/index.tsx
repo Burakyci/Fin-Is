@@ -319,14 +319,6 @@ export default function CreditApplication() {
                   </div>
                 </div>
 
-                <div className={styles.infoBox}>
-                  <strong>📝 Karar Gerekçesi:</strong>
-                  <p style={{ margin: "10px 0 0 0" }}>
-                    {decisionResult?.decision_reason ||
-                      "Değerlendirme yapılıyor..."}
-                  </p>
-                </div>
-
                 {decisionResult?.recommended_amount &&
                   decisionResult.recommended_amount !==
                     parseFloat(amount || "0") && (
