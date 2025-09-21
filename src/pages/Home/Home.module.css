@@ -1,0 +1,228 @@
+/* Sayfa ve konteyner */
+.page {
+  min-height: 100vh;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Başlık & açıklama */
+.heroTitle {
+  margin: 0 0 10px 0;
+}
+.heroText {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* 3lü kart grid */
+.responsiveGrid {
+  display: grid;
+  gap: 20px;
+}
+.cardPad {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* 2 kolon gradient bölümleri */
+.section {
+  border-radius: 20px;
+  padding: 40px;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.sectionDeposit {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.sectionLoan {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* Bölüm başlıkları ve açıklamalar */
+.sectionTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.sectionDesc {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Form öğeleri */
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.input,
+.select {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+.formGrid {
+  display: grid;
+  gap: 20px;
+}
+
+/* Buton (glass) */
+.btnGlass {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+.btnGlass:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Cam panel kartları (sonuç/boş içerik) */
+.glassPanel {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.panelTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.rowAlt {
+  background: rgba(255, 255, 255, 0.15);
+}
+.hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 15px 0;
+}
+.hrStrong {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.totalBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.totalValue {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffd700;
+}
+mutedNote {
+  font-size: 12px;
+  opacity: 0.8;
+}
+noteBox {
+  text-align: center;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 12px;
+  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.emptyState {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 14px;
+  margin-top: 60px;
+}
+.emptyBig {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+/* Renk vurguları */
+.textGreen {
+  color: #90ee90;
+  font-weight: 600;
+}
+.textPink {
+  color: #ffb6c1;
+  font-weight: 600;
+}
+.textMint {
+  color: #98fb98;
+  font-weight: 600;
+}
+.textGold {
+  color: #ffd700;
+  font-weight: 700;
+}
+
+/* Küçük bilgi kutusu */
+.fixedRates {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.fixedRatesTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.fixedRatesText {
+  font-size: 12px;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .twoCol {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 700px) {
+  .responsiveGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,133 @@
+/* Account.module.css */
+
+.page {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.center {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcomeTitle {
+  color: #007bff;
+  margin: 0 0 10px 0;
+}
+
+.welcomeText {
+  opacity: 0.8;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+  background: var(--card-bg, #1b0707);
+}
+
+.cardTitle {
+  margin: 0 0 25px 0;
+  color: #007bff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.statBox {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.bgBlue {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.bgGreen {
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.bgGray {
+  background-color: rgba(108, 117, 125, 0.1);
+}
+
+.bgCyan {
+  background-color: rgba(23, 162, 184, 0.1);
+}
+
+.statLabel {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.statValueBlue {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.statValueGreen {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.statValue {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.statusActive {
+  color: #28a745;
+}
+
+.openDate {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.simpleCard {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background: var(--card-bg, #000000);
+}
+
+.simpleTitle {
+  margin: 0 0 15px 0;
+  color: #007bff;
+}
+
+.badge {
+  padding: 15px;
+  background-color: rgba(255, 193, 7, 0.1);
+  border-radius: 8px;
+  font-style: italic;
+}

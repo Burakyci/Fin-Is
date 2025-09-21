@@ -1,0 +1,66 @@
+{
+  "approval_threshold": 60,
+  "income_section": {
+    "max_points": 50,
+    "salary_ratio_brackets": [
+      { "max_ratio": 0.5, "points": 50 },
+      { "max_ratio": 0.6, "points": 45 },
+      { "max_ratio": 0.7, "points": 40 },
+      { "max_ratio": 0.8, "points": 35 },
+      { "max_ratio": 0.9, "points": 30 },
+      { "max_ratio": 1.0, "points": 25 },
+      { "max_ratio": 1.25, "points": 20 },
+      { "max_ratio": 1.5, "points": 15 },
+      { "max_ratio": 2.0, "points": 10 },
+      { "max_ratio": 3.0, "points": 5 },
+      { "max_ratio": 999, "points": 0 }
+    ]
+  },
+  "personal_section": {
+    "max_points": 50,
+    "sector": {
+      "kamu": 10,
+      "özel sektör": 7,
+      "serbest meslek": 5,
+      "emekli": 3,
+      "öğrenci": 3,
+      "çalışmıyorum": 0
+    },
+    "profession": {
+      "Doktor": 10,
+      "Mühendis": 9,
+      "Öğretmen": 8,
+      "Avukat": 9,
+      "Hemşire": 7,
+      "Polis": 7,
+      "Asker": 6,
+      "Muhasebeci": 6,
+      "Pazarlama Uzmanı": 5,
+      "Satış Temsilcisi": 5,
+      "Tekniker": 5,
+      "Bankacı": 8,
+      "Emlakçı": 4,
+      "Berber/Kuaför": 2,
+      "Şoför": 3,
+      "Aşçı": 2,
+      "Garson": 2,
+      "İnşaat İşçisi": 2,
+      "Temizlik Görevlisi": 1,
+      "Güvenlik Görevlisi": 3,
+      "Öğrenci": 1,
+      "Emekli": 1,
+      "Ev Hanımı": 1,
+      "Serbest Meslek": 4,
+      "Diğer": 0
+    },
+    "home_ownership": 4,
+    "has_insurance": 3,
+    "job_stability": 4,
+    "defaulted_loans": -25,
+    "legal_issues": -30,
+    "customer_segment": {
+      "mass": 5,
+      "premium": 10
+    }
+  }
+}
